@@ -1,0 +1,86 @@
+1.	Study of GSM architecture and signaling techniques.
+	Draw GSM Architecture
+	Explain Signaling techniques
+	Signaling System 7 (SS7): Used for network management and call control.
+	Common Channel Signaling System No. 7 (CCS7): Variant of SS7 for signaling in GSM networks.
+	Channel Associated Signaling (CAS): Uses signaling bits within the voice channel for call setup.
+	LAPD: Link access procedure on D channel. Data link layer protocol for signaling between BTS and BSC.
+	Mobile Application Part (MAP): Protocol for signaling between network elements.
+	Abis Interface Signaling: Signaling protocols for communication between BSC and BTS.
+
+
+2.	Study of GPRS services. 
+	Draw GPRS Architecture
+	Explain the protocol architecture of GPRS?
+	Application Layer: Interacts with user applications for services like email, web browsing, and file transfer.
+	Session Layer: Manages sessions between user applications and the network.
+	Transport Layer: Ensures reliable and error-free data transfer using protocols like TCP.
+	Network Layer: Handles IP addressing, packet routing, and network congestion control.
+	Link Layer: Establishes and manages the link between the mobile device and the base station using LAPDm.
+	Physical Layer: Deals with the actual transmission of signals over the physical medium
+
+
+3.	Simulate BER performance over Rayleigh Fading wireless channel with BPSK transmission for SNR 0 to 60 dB. 
+	Explain Rayleigh Fading wireless channel
+Rayleigh fading is a model used to describe the wireless channel's behavior. It assumes that the transmitted signal experiences random variations in magnitude and phase due to multiple reflections and scattering.
+	Explain types of fading techniques
+	Slow Fading: In slow fading, the variations in the channel occur over a timescale much larger than the symbol duration. The fading effect is relatively predictable, allowing for effective equalization and error correction techniques. Examples of slow fading are encountered in environments with large distances between the transmitter and receiver, where the channel variations occur gradually over time.
+	Fast Fading: In fast fading, the channel variations occur rapidly, comparable to or faster than the symbol duration. The fading effect is highly unpredictable and can lead to rapid changes in the received signal strength and quality. Fast fading is commonly experienced in environments with significant multipath propagation, such as urban areas, where the reflected signals from buildings and other objects cause rapid variations.
+
+
+4.	Configuring a Cisco Router as a DHCP Server. 
+	 Explain DORA process in details
+
+	Explain types of IP address in details
+
+5.	To understand the handover mechanism.
+	Explain Handoff 
+handoff refers to the process of transferring an ongoing call or data session from one base station (or access point) to another, while maintaining continuous connectivity and service quality for the user. Handoff is essential for providing seamless mobility in cellular networks and other wireless systems.
+	 Types of Handoffs
+	Intra-cell Handoff: This type of handoff occurs when a mobile device moves within the coverage area of a single cell but encounters variations in signal quality or other factors. The handoff process involves transferring the connection to a different channel or frequency within the same cell to maintain a better signal quality and minimize interference.
+	Inter-cell Handoff: Inter-cell handoff happens when a mobile device moves from one cell to another. This occurs in cellular networks with multiple cells and base stations. The handoff process involves transferring the connection from the current base station to a neighboring base station that provides better signal strength or capacity in the new coverage area.
+o	Hard Handoff: A hard handoff involves an immediate transfer of the connection from the current base station to the new base station. There is a brief interruption during the handoff process, and the connection is switched to the new base station completely.
+o	Soft Handoff: Soft handoff, also known as softer handover, allows a mobile device to be simultaneously connected to multiple base stations during the handoff process. This enables a seamless transition as the device maintains connections with both the previous and new base stations. Soft handoff improves call quality, signal strength, and overall reliability, especially in areas with overlapping cell coverage.
+o	Softer Handoff: Softer handoff is an enhanced version of soft handoff that allows the mobile device to connect to more than two base stations simultaneously during the handoff process. This provides further redundancy and ensures better coverage and quality.
+	
+
+
+
+6.	To study the outage probability, LCR & ADF in SISO for Selection Combining and MRC (Flat Fading). 
+	Explain types of fading techniques
+fading refers to the fluctuation or variation in the strength or quality of the received signal due to changes in the propagation environment. Fading can occur as a result of various factors, such as multipath propagation, interference, and environmental conditions
+
+
+7.	To Perform File Transfer in Client & Server Using TCP/IP. 
+	Explain FTP in detail
+
+8.	Case Study on different real time mobile computing services.
+	Write the evaluation of 2G,2.5G,3G,4G,5G techniques in detail.
+Here is an evaluation of 2G, 2.5G, 3G, 4G, and 5G techniques in detail:
+
+1. 2G (Second Generation):
+   - Key Features: 2G introduced digital voice communication and offered improved voice quality, security, and capacity compared to its predecessor, 1G. It used Time Division Multiple Access (TDMA) or Code Division Multiple Access (CDMA) technologies.
+   - Data Services: Limited data services with low data rates (up to 64 kbps).
+   - Evaluation: 2G revolutionized mobile communication by enabling widespread adoption of cellular networks. It focused on voice services, but data capabilities were limited. 2G networks provided basic messaging services and rudimentary internet access.
+
+2. 2.5G (Second and a Half Generation):
+   - Key Features: 2.5G introduced General Packet Radio Service (GPRS), enhancing data capabilities over 2G networks. It allowed packet-switched data transmission, enabling services like internet browsing, email, and multimedia messaging.
+   - Data Services: GPRS offered data rates up to 114 kbps, providing an always-on internet connection.
+   - Evaluation: 2.5G bridged the gap between 2G and 3G by introducing packet-switched data services. It significantly improved data speeds and introduced an "always-on" internet experience. However, the data rates were still limited for advanced applications.
+
+3. 3G (Third Generation):
+   - Key Features: 3G brought significant advancements, including higher data rates, multimedia support, and enhanced network capacity. It introduced technologies like Universal Mobile Telecommunications System (UMTS) and CDMA2000.
+   - Data Services: 3G offered higher data rates ranging from a few hundred kbps to a few Mbps, enabling video streaming, video calls, and mobile internet with improved speeds.
+   - Evaluation: 3G marked a major shift towards mobile data services. It provided faster data speeds, enabling multimedia-rich applications and services. However, coverage and network availability varied, and the initial implementation faced challenges in delivering promised data rates.
+
+4. 4G (Fourth Generation):
+   - Key Features: 4G, based on Long-Term Evolution (LTE) technology, focused on delivering high-speed mobile broadband with improved spectral efficiency. It introduced IP-based networks, advanced antenna technologies, and low-latency connections.
+   - Data Services: 4G provided significantly higher data rates, ranging from tens of Mbps to hundreds of Mbps, enabling seamless streaming, high-quality video calls, and advanced mobile applications.
+   - Evaluation: 4G revolutionized mobile data connectivity, offering faster speeds, low latency, and improved network capacity. It facilitated the widespread adoption of video streaming, online gaming, and other bandwidth-intensive applications.
+
+5. 5G (Fifth Generation):
+   - Key Features: 5G is the latest generation of wireless technology, designed to provide ultra-high-speed data rates, ultra-low latency, massive device connectivity, and network slicing. It utilizes advanced technologies like millimeter-wave (mmWave) frequencies, massive MIMO, and network virtualization.
+   - Data Services: 5G promises multi-gigabit data rates, enabling real-time 4K/8K video streaming, augmented reality (AR), virtual reality (VR), and Internet of Things (IoT) applications with high reliability.
+   - Evaluation: 5G represents a significant leap forward in wireless technology. It aims to transform industries and enable futuristic applications. With blazing-fast speeds, extremely low latency, and massive device connectivity, 5G has the potential to revolutionize sectors like autonomous vehicles, smart cities, healthcare, and industrial automation.
+
+Overall, each generation of mobile
