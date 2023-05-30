@@ -1,0 +1,90 @@
+*********************** FTP ************************************
+Cisco Packet Tracer PC Command Line 1.0
+C:\>ftp 192.168.1.1
+Trying to connect...192.168.1.1
+Connected to 192.168.1.1
+220- Welcome to PT Ftp server
+Username:jay
+331- Username ok, need password
+Password:
+230- Logged in
+(passive mode On)
+ftp>put exp.txt
+
+Writing file exp.txt to 192.168.1.1: 
+File transfer in progress...
+
+[Transfer complete - 14 bytes]
+
+14 bytes copied in 0.433 secs (32 bytes/sec)
+ftp>
+
+
+************************** DHCP ***********************************
+Would you like to enter the initial configuration dialog? [yes/no]: no
+
+
+Press RETURN to get started!
+
+
+
+Router>enable
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#
+Router(config)#
+Router(config)#interface GigabitEthernet0/0/0
+Router(config-if)#no shutdown
+Router(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/0/0, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/0, changed state to up
+
+Router(config-if)#ip address ip-address 192.168.1.1 255.255.255.0
+                             ^
+% Invalid input detected at '^' marker.
+	
+Router(config-if)#ip address 192.168.1.1 255.255.255.0
+Router(config-if)#ip dhcp pool xyz
+Router(dhcp-config)#network 192.168.1.0 255.255.255.0
+Router(dhcp-config)#default-router 192.168.1.1
+Router(dhcp-config)#dns-server 8.8.8.8
+Router(dhcp-config)#
+Router(dhcp-config)#
+
+
+*********************** CASE STUDY *************************************
+
+Title: Mobile Computing in Battle Royale Games: A Case Study of PUBG Mobile
+
+Introduction:
+Battle Royale games have gained immense popularity in the gaming industry, offering intense multiplayer experiences on various platforms, including mobile devices. This case study focuses on PUBG Mobile, one of the most successful battle royale games for mobile computing, to analyze its implementation and impact on the mobile gaming landscape.
+
+Overview of PUBG Mobile:
+
+PUBG Mobile is a mobile adaptation of the PC/console game PlayerUnknown's Battlegrounds (PUBG).
+It offers a massive multiplayer online battle royale experience where players fight against each other in a large-scale map.
+The game features realistic graphics, immersive gameplay, and a highly competitive environment.
+Mobile Computing Technologies Utilized:
+
+Network Connectivity: PUBG Mobile heavily relies on mobile network connectivity, enabling players to engage in real-time multiplayer matches.
+GPS and Location Services: The game utilizes GPS and location services to track player positions and dynamically adjust the gameplay area.
+Wireless Communication: PUBG Mobile leverages wireless communication technologies to facilitate player interactions, voice chats, and team coordination.
+Sensor Integration: Mobile device sensors, such as accelerometer and gyroscope, are utilized to provide intuitive controls and enhance the gaming experience.
+Mobile Optimization:
+
+Graphics and Performance: PUBG Mobile optimizes graphics and performance to ensure smooth gameplay on a wide range of mobile devices, accommodating varying hardware capabilities.
+Touchscreen Controls: The game implements intuitive touchscreen controls, allowing players to perform actions like moving, aiming, shooting, and interacting with the environment seamlessly.
+Battery Efficiency: PUBG Mobile employs battery optimization techniques to reduce power consumption, extending the gameplay duration without draining the device's battery rapidly.
+Challenges in Mobile Computing for Battle Royale Games:
+
+Network Latency and Stability: Maintaining low latency and stable network connectivity is crucial to ensure fair gameplay and smooth multiplayer interactions.
+Device Fragmentation: Supporting a wide range of mobile devices with different hardware specifications and screen sizes poses challenges in terms of performance optimization and compatibility.
+User Experience: Designing an engaging and immersive user experience on smaller screens, with limited input options, requires careful consideration of interface design and control schemes.
+Impact on Mobile Gaming:
+
+Accessibility: PUBG Mobile has contributed to the growth of mobile gaming, making battle royale experiences accessible to a larger audience.
+Social Gaming: The game fosters social interactions and collaboration among players, enabling friends to team up and compete together regardless of their physical locations.
+Technological Advancements: The success of PUBG Mobile has pushed mobile computing technologies to evolve, leading to advancements in network infrastructure, graphics capabilities, and device performance.
+Conclusion:
+PUBG Mobile serves as an exemplary case study of battle royale games in mobile computing. It demonstrates the successful adaptation of a popular PC/console game into a mobile platform, leveraging various mobile computing technologies to deliver an immersive and competitive multiplayer experience. The game's optimization for mobile devices and its impact on the mobile gaming landscape highlight the potential and challenges of mobile computing in the gaming industry.
